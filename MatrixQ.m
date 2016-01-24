@@ -22,4 +22,7 @@
 doMatrixQ[list_] := Length[Dimensions[list]]==2
 
 
+doListofMatriciesQ[list_] := And @@ (doMatrixQ[#]& /@ list)
+
+
 

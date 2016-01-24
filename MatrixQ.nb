@@ -3,10 +3,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[         0,          0]
-NotebookDataLength[      5525,        212]
-NotebookOptionsPosition[      4217,        158]
-NotebookOutlinePosition[      4606,        175]
-CellTagsIndexPosition[      4563,        172]
+NotebookDataLength[      8142,        283]
+NotebookOptionsPosition[      6640,        224]
+NotebookOutlinePosition[      7029,        241]
+CellTagsIndexPosition[      6986,        238]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -26,102 +26,6 @@ dimensions function only returns the dimension of the topmost list\
 
 Cell[CellGroupData[{
 
-Cell["Test cases", "Section",
- CellChangeTimes->{{3.6624840784687443`*^9, 3.6624840836616993`*^9}}],
-
-Cell["\<\
-Case # 1
-Square Matrix\
-\>", "Text",
- CellChangeTimes->{{3.662484090235566*^9, 3.662484118232134*^9}}],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"arr", " ", "=", " ", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
-    RowBox[{"{", 
-     RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
-    RowBox[{"{", 
-     RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}]}]], "Input",
- CellChangeTimes->{{3.6624842123891983`*^9, 3.662484233291823*^9}}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.6624843005853863`*^9}]
-}, Open  ]],
-
-Cell["\<\
-Case #2
-Non-square Matrix\
-\>", "Text",
- CellChangeTimes->{{3.662484121956154*^9, 3.6624841768182697`*^9}, {
-  3.662484430844145*^9, 3.662484431219721*^9}}],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"arr", "=", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
-    RowBox[{"{", 
-     RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}]}]], "Input",
- CellChangeTimes->{{3.6624842376624527`*^9, 3.662484262639804*^9}}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.662484406633223*^9}]
-}, Open  ]],
-
-Cell["\<\
-Case #3
-Ragged list\
-\>", "Text",
- CellChangeTimes->{{3.662484180084681*^9, 3.662484202475048*^9}, {
-  3.6624844342929087`*^9, 3.6624844347644043`*^9}}],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
- RowBox[{"arr", "=", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
-    RowBox[{"{", 
-     RowBox[{"1", ",", "2"}], "}"}]}], "}"}]}]], "Input",
- CellChangeTimes->{{3.662484265602606*^9, 3.662484279936301*^9}}],
-
-Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{"1", ",", "2"}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.662484414528664*^9}]
-}, Open  ]]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
 Cell["Function Definition", "Section",
  CellChangeTimes->{{3.6624844465561666`*^9, 3.662484454984509*^9}}],
 
@@ -138,21 +42,183 @@ Cell[BoxData[
 
 Cell[CellGroupData[{
 
-Cell["Test area", "Section",
- CellChangeTimes->{{3.662484548690256*^9, 3.662484552228758*^9}}],
+Cell["Test cases", "Section",
+ CellChangeTimes->{{3.6624840784687443`*^9, 3.6624840836616993`*^9}}],
+
+Cell["\<\
+Case # 1
+Square Matrix\
+\>", "Text",
+ CellChangeTimes->{{3.662484090235566*^9, 3.662484118232134*^9}}],
+
+Cell[BoxData[
+ RowBox[{"arr", " ", "=", " ", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6624842123891983`*^9, 3.662484233291823*^9}}],
+
+Cell["\<\
+Case #2
+Non-square Matrix\
+\>", "Text",
+ CellChangeTimes->{{3.662484121956154*^9, 3.6624841768182697`*^9}, {
+  3.662484430844145*^9, 3.662484431219721*^9}}],
+
+Cell[BoxData[
+ RowBox[{"arr", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.6624842376624527`*^9, 3.662484262639804*^9}}],
+
+Cell["\<\
+Case #3
+Ragged list\
+\>", "Text",
+ CellChangeTimes->{{3.662484180084681*^9, 3.662484202475048*^9}, {
+  3.6624844342929087`*^9, 3.6624844347644043`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"arr", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"1", ",", "2"}], "}"}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.662484265602606*^9, 3.662484279936301*^9}}]
+}, Open  ]],
 
 Cell[CellGroupData[{
+
+Cell["Test area", "Section",
+ CellChangeTimes->{{3.662484548690256*^9, 3.662484552228758*^9}}],
 
 Cell[BoxData[
  RowBox[{"doMatrixQ", "[", "arr", "]"}]], "Input",
  CellChangeTimes->{{3.662484285248391*^9, 3.66248429288059*^9}, {
-  3.662484393957078*^9, 3.6624843954450483`*^9}}],
-
-Cell[BoxData["False"], "Output",
- CellChangeTimes->{
-  3.662484307327532*^9, 3.662484347915915*^9, {3.662484379477738*^9, 
-   3.662484416933959*^9}}]
+  3.662484393957078*^9, 3.6624843954450483`*^9}}]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Test for a list of Matricies", "Chapter",
+ CellChangeTimes->{{3.6626392699554234`*^9, 3.66263928570805*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["Function Definition", "Section",
+ CellChangeTimes->{{3.66264689273669*^9, 3.662646900123116*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"doListofMatriciesQ", "[", "list_", "]"}], " ", ":=", " ", 
+  RowBox[{"And", " ", "@@", " ", 
+   RowBox[{"(", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"doMatrixQ", "[", "#", "]"}], "&"}], " ", "/@", " ", "list"}], 
+    ")"}]}]}]], "Code",
+ CellChangeTimes->{{3.6626469306428537`*^9, 3.662647000033423*^9}, {
+  3.662647078481333*^9, 3.6626470785590963`*^9}, {3.6626472010990047`*^9, 
+  3.6626472024002457`*^9}, {3.6626472353746862`*^9, 3.6626472629483624`*^9}, {
+  3.662647525953829*^9, 3.6626475529533367`*^9}, {3.662647609620103*^9, 
+  3.662647652663081*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Test Cases", "Section",
+ CellChangeTimes->{{3.6626461533699207`*^9, 3.6626461628346148`*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"List", " ", "of", " ", "2", " ", "matricies"}], " ", "*)"}], 
+  RowBox[{"arr", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}]}], 
+    "}"}]}]}]], "Input",
+ CellChangeTimes->{{3.66264616452829*^9, 3.662646221650456*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{
+   "List", " ", "of", " ", "1", " ", "matrix", " ", "and", " ", "1", " ", 
+    "Ragged", " ", "list"}], " ", "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"arr", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2", ",", "3"}], "}"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2"}], "}"}]}], "}"}]}], "}"}]}]}]], "Input",
+ CellChangeTimes->{{3.662646199572693*^9, 3.662646270802085*^9}}],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"(*", " ", 
+   RowBox[{"List", " ", "of", " ", "2", " ", "Ragged", " ", "Lists"}], " ", 
+   "*)"}], "\[IndentingNewLine]", 
+  RowBox[{"arr", "=", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2"}], "}"}]}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2", ",", "3"}], "}"}], ",", 
+       RowBox[{"{", 
+        RowBox[{"1", ",", "2"}], "}"}]}], "}"}]}], "}"}]}]}]], "Input",
+ CellChangeTimes->{{3.662646275870983*^9, 3.6626462940447693`*^9}, {
+   3.6626468651342793`*^9, 3.6626468831225023`*^9}, 3.662647582203602*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Test Area", "Section",
+ CellChangeTimes->{{3.6626469085659437`*^9, 3.6626469187848873`*^9}}],
+
+Cell[BoxData[
+ RowBox[{"doListofMatriciesQ", "[", "arr", "]"}]], "Input",
+ CellChangeTimes->{{3.662647005947022*^9, 3.6626470210710907`*^9}, {
+  3.6626471015214977`*^9, 3.662647114120612*^9}}]
 }, Open  ]]
 }, Open  ]]
 },
@@ -178,33 +244,38 @@ Cell[CellGroupData[{
 Cell[422, 15, 102, 1, 65, "Chapter"],
 Cell[527, 18, 302, 6, 68, "Text"],
 Cell[CellGroupData[{
-Cell[854, 28, 99, 1, 64, "Section"],
-Cell[956, 31, 112, 4, 49, "Text"],
-Cell[CellGroupData[{
-Cell[1093, 39, 369, 10, 28, "Input"],
-Cell[1465, 51, 304, 9, 28, "Output"]
+Cell[854, 28, 106, 1, 64, "Section"],
+Cell[963, 31, 328, 8, 50, "Code"]
 }, Open  ]],
-Cell[1784, 63, 166, 5, 49, "Text"],
 Cell[CellGroupData[{
-Cell[1975, 72, 288, 8, 28, "Input"],
-Cell[2266, 82, 233, 7, 28, "Output"]
+Cell[1328, 44, 99, 1, 64, "Section"],
+Cell[1430, 47, 112, 4, 49, "Text"],
+Cell[1545, 53, 369, 10, 28, "Input"],
+Cell[1917, 65, 166, 5, 49, "Text"],
+Cell[2086, 72, 288, 8, 28, "Input"],
+Cell[2377, 82, 162, 5, 49, "Text"],
+Cell[2542, 89, 276, 8, 28, "Input"]
 }, Open  ]],
-Cell[2514, 92, 162, 5, 49, "Text"],
 Cell[CellGroupData[{
-Cell[2701, 101, 276, 8, 28, "Input"],
-Cell[2980, 111, 223, 7, 28, "Output"]
+Cell[2855, 102, 94, 1, 64, "Section"],
+Cell[2952, 105, 180, 3, 28, "Input"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3252, 124, 106, 1, 64, "Section"],
-Cell[3361, 127, 328, 8, 50, "Code"]
+Cell[3181, 114, 114, 1, 65, "Chapter"],
+Cell[CellGroupData[{
+Cell[3320, 119, 103, 1, 64, "Section"],
+Cell[3426, 122, 595, 13, 50, "Code"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3726, 140, 94, 1, 64, "Section"],
+Cell[4058, 140, 99, 1, 64, "Section"],
+Cell[4160, 143, 653, 20, 46, "Input"],
+Cell[4816, 165, 718, 21, 46, "Input"],
+Cell[5537, 188, 745, 21, 46, "Input"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[3845, 145, 180, 3, 28, "Input"],
-Cell[4028, 150, 149, 3, 28, "Output"]
-}, Open  ]]
+Cell[6319, 214, 98, 1, 64, "Section"],
+Cell[6420, 217, 192, 3, 28, "Input"]
 }, Open  ]]
 }, Open  ]]
 }
