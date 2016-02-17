@@ -25,4 +25,13 @@ doMatrixQ[list_] := Length[Dimensions[list]]==2
 doListofMatriciesQ[list_] := And @@ (doMatrixQ[#]& /@ list)
 
 
+doMinArrayLength[list_] := Min[Flatten[Map[Length[#]&, list,{Depth[list]-2}]]]
+
+
+doSelectMinArrayLengths[list_, len_] := Map[Select[#,Length[#]>=len&]&, list,{Depth[list]-3}]
+
+
+doSelectLTArrayLengths[list_, len_] := Map[Select[#,Length[#]<len&]&, list,{Depth[list]-3}]
+
+
 
